@@ -55,15 +55,21 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				      <artifactId>maven-compiler-plugin</artifactId>
-				      <version>3.8.1</version> 
+				      <artifactId>maven-jar-plugin</artifactId>
+<!--				maven-compiler-plugin tha idhr -->
+				      <version>3.2.0</version>
+<!--				3.8.1-->
 			      <configuration>
-        			<release>17</release>
+<!--        			<release>17</release>-->
+					  <archive>
+						  <manifest>
+							  <addClasspath>true</addClasspath>
+							  <mainClass>com.example.jobCRUD.JobCRUD.JobCrudApplication</mainClass>
+						  </manifest>
+					  </archive>
 	      				<excludes>
-
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
-
 					</excludes><!-- Set the Java version you want to target -->
       				</configuration>
 			</plugin>
