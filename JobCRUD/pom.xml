@@ -60,10 +60,10 @@
 			      <configuration>
         			<release>17</release>
 	      				<excludes>
-						<exclude>
+
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
-						</exclude>
+
 					</excludes><!-- Set the Java version you want to target -->
       				</configuration>
 			</plugin>
