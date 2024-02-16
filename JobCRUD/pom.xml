@@ -54,16 +54,18 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<excludes>
+				<groupId>org.apache.maven.plugins</groupId>
+				      <artifactId>maven-compiler-plugin</artifactId>
+				      <version>3.8.1</version> <!-- Update to a version that supports --release -->
+			      <configuration>
+        			<release>17</release>
+	      				<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
 						</exclude>
-					</excludes>
-				</configuration>
+					</excludes><!-- Set the Java version you want to target -->
+      				</configuration>
 			</plugin>
 		</plugins>
 	</build>
