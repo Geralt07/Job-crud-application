@@ -1,0 +1,25 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="container">
+    <h4> Company List</h4>    
+    <table class = "table table-striped table-hover ">
+        <thead>
+            <tr>            
+                <th> Company Name</th>
+                <th> Industry Name</th>
+                <th> Company Address </th>    
+                <th> Job offered by the company</th>                    
+                <th> Job location</th>                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = "let job of jobs" >            
+                <td> {{job.companyObj.company_name }} </td>
+                <td> {{ job.companyObj.industry}} </td>
+                <td> {{ job.companyObj.address}} </td>         
+                <td> {{ job.jobTitle}} </td>  
+                <td> {{ job.location}} </td>             
+            </tr>
+        </tbody>
+    </table>            
+</div>

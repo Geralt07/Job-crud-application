@@ -1,0 +1,15 @@
+<nav class="navbar bg-body-tertiary ">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1 ">
+           <h4 routerLink="/home-page">RippleHire Job Posting App</h4>         <!--(click)="homePage()"-->
+      </span>
+      <ul>
+        <button (click)="jobList()" type="button" class="btn btn-success">Job postings</button>
+        <span class="button-space"></span>
+        <button routerLink="/company-details" type="button" class="btn btn-success">Company Details</button>
+        <span class="button-space"></span>
+        <button (click)="createJob()" type="button" class="btn btn-success">Create Job</button>
+      </ul>
+    </div>
+  </nav>
+  <br>

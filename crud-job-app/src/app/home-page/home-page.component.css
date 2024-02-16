@@ -1,0 +1,23 @@
+nav{
+    background-color: rgb(38, 118, 187);
+    color: white;
+    border-bottom-color: black;
+}
+
+.button-space {
+    margin-right: 10px; /* Adjust the margin as needed to create the desired space */
+  }
+  .image-container {
+    width: 1000px; /* Set the width of the container */
+    height: 500px; /* Set the height of the container */
+    border: 1px solid #ccc; /* Add a border */
+    overflow: hidden; /* Hide overflow if the image is larger than the container */
+  }
+  
+  .image-container img {
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    
+  }
+  
+  

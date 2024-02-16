@@ -1,0 +1,9 @@
+nav{
+    background-color: rgb(38, 118, 187);
+    color: white;
+    border-bottom-color: black;
+}
+
+.button-space {
+    margin-right: 10px; /* Adjust the margin as needed to create the desired space */
+  }

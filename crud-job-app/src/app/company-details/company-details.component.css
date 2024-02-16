@@ -1,0 +1,13 @@
+thead{
+    background-color: rgb(38, 118, 187);
+    color: white;
+    border-bottom-color: black;
+}
+.tables-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .table-container {
+    width: 5%; /* Adjust the width as needed */
+  }
