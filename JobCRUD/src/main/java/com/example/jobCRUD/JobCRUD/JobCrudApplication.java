@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JobCrudApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(JobCrudApplication.class, args);
 	}
 
