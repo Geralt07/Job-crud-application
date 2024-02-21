@@ -25,6 +25,7 @@ export class CreateJobComponent {
   saveEmployee(){
     this.jobService.createJob(this.job).subscribe( data =>{
       console.log(data);
+      alert('Job created successfully');
       this.goToEmployeeList();
     },
     error => console.log(error));

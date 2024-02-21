@@ -25,6 +25,7 @@ export class UpdateJobComponent {
   }
   onSubmit(){
     this.jobService.updateJob(this.id, this.job).subscribe( data =>{
+      alert('Job updated successfully');
       this.goToJobList();
     }
     , error => console.log(error));
